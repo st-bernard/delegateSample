@@ -2,9 +2,9 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-    var delegate: sayHelloDelegate
+    var delegate: SayHelloDelegate
     
-    init(delegate: sayHelloDelegate) {
+    init(delegate: SayHelloDelegate) {
         self.delegate = delegate
         super.init(nibName: nil, bundle: nil)
     }
